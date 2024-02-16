@@ -1,11 +1,55 @@
-// import React from 'react'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+} from 'react-router-dom';
+
+function Route1() {
+  return (
+    <div>
+      <h2>hello world 1</h2>
+    </div>
+  );
+}
+
+function Route2() {
+  return (
+    <div>
+      <h2>hello world 2</h2>
+    </div>
+  );
+}
+
+function Route3() {
+  return (
+    <div>
+      <h2>hello world 2</h2>
+    </div>
+  );
+}
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  )
+    <Router>
+      <nav>
+        <Link to="/">
+          Home
+        </Link>
+        <Link to="/algo">
+          Story
+        </Link>
+        <Link to="/algo2">
+          Algo
+        </Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Route1 />} />
+        <Route path="/algo" element={<Route2 />} />
+        <Route path="/algo2" element={<Route3 />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
