@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        protest: ['"Protest Revolution"'],
+        shadows: ['"Shadows Into Light"'],
+        zeyada: ['"Zeyada"']
+      }
+    },
   },
   plugins: [],
 }

@@ -45,7 +45,7 @@ function BinarySearch() {
         />
         <button onClick={handleGuess}>Guess</button>
       </div>
-      <p className="font-bold">{`Try searching between ${low + ' '+ high}`}</p>
+      <p className="font-protest">{`Try searching between ${low + ' '+ high}`}</p>
     </div>
   );
 }
