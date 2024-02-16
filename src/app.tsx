@@ -4,6 +4,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
+import BinarySearch from "./components/binary-search/index.component";
 
 function Route1() {
   return (
@@ -44,7 +45,7 @@ function App() {
         </Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Route1 />} />
+        <Route path="/" element={<BinarySearch />} />
         <Route path="/algo" element={<Route2 />} />
         <Route path="/algo2" element={<Route3 />} />
       </Routes>
