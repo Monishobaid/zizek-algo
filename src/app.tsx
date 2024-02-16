@@ -1,6 +1,6 @@
 // import React from 'react'
 
-function app() {
+function App() {
   return (
     <div>
       <h1>Hello World</h1>
@@ -8,4 +8,4 @@ function app() {
   )
 }
 
-export default app
+export default App
