@@ -6,9 +6,12 @@ import {
 } from 'react-router-dom';
 import BinarySearch from "./components/binary-search/index.component";
 
+import AnimatedTextCharacter from "./components/textanimated";
+
 function Route1() {
   return (
     <div>
+      <WelcomeMessage/>
       <h2>hello world 1</h2>
     </div>
   );
@@ -28,6 +31,14 @@ function Route3() {
       <h2>hello world 2</h2>
     </div>
   );
+}
+
+function WelcomeMessage(){
+  return (
+    <div>
+       <AnimatedTextCharacter text="Welcome to Zizek Algo" />
+    </div>
+  )
 }
 
 function App() {
