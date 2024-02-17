@@ -1,9 +1,9 @@
-import AnimatedTextCharacter from "../Animation/textanimated";
+import AnimatedTextCharacter from "../../components/Animation/textanimated";
 
 export default function About() {
   return (
     <div>
-      <div className="Zeyada">
+      <div className="font-zeyada">
         <AnimatedTextCharacter text="Welcome to Zizek Algo" />
       </div>
     </div>
