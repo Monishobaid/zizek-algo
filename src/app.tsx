@@ -5,7 +5,7 @@ import {
   Link,
 } from 'react-router-dom';
 import BinarySearch from "./components/binary-search/index.component";
-import Home from "./views/home"
+import Home from "./pages/home"
 
 
 function App() {
