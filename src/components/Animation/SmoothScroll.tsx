@@ -1,4 +1,4 @@
-import React, {
+import {
     useRef,
     useState,
     useLayoutEffect,
@@ -38,7 +38,7 @@ import React, {
     }, []);
   
     useLayoutEffect(() => {
-      const resizeObserver = new ResizeObserver((entries) => onResize(entries));
+      const resizeObserver = new ResizeObserver((entries: ResizeObserverEntry[]) => onResize(entries));
       if (ghostRef.current) {
         resizeObserver.observe(ghostRef.current);
         return () => resizeObserver.disconnect();
