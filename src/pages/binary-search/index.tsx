@@ -1,4 +1,3 @@
-import React from "react";
 import BinarySearchComponent from "../../components/binary-search/index.component";
 
 function BinarySearch() {
