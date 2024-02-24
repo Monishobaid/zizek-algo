@@ -1,7 +1,7 @@
-import AnimatedTextCharacter from "../../components/animation/textanimated";
+import AnimatedTextCharacter from "../../components/Animation/textanimated";
 import ZizekImage from "../../assets/images/zizekdoodle.jpeg";
 // import HorizontalScroll  from "../../components/Animation/scrollHorizontal"; // Importing the custom hook
-import SmoothScroll from "../../components/animation/SmoothScroll";
+import SmoothScroll from "../../components/Animation/SmoothScroll";
 
 export default function About() {
   // const horizontalScrollRef = useHorizontalScroll(); // Using the custom hook
